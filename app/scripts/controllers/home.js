@@ -9,5 +9,8 @@
  */
 angular.module('walshApp')
   .controller('HomeCtrl', function ($scope) {
+  	//shut jshint up for now
+  	$scope = '';
+
   	console.log('in home ctrl.');
   });
