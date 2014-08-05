@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -31,11 +32,12 @@ angular
       //   templateUrl: 'views/about.html',
       //   controller: 'AboutCtrl'
       // })
-      .when('/home', {
-        templateUrl: 'views/home.html',
-        controller: 'HomeCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+      // .when('/home', {
+      //   templateUrl: 'views/home.html',
+      //   controller: 'HomeCtrl'
+      // })
+      // .otherwise({
+      //   redirectTo: '/'
+      // })
+  ;
   });
