@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"reset"
+			],
+			[
 				"todo",
 				"todosInStore"
 			]
@@ -11,41 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 10876,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "sub<!doctype html>\n<html class=\"no-js\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title></title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n    <!-- build:css(.) styles/vendor.css -->\n    <!-- bower:css -->\n    <!-- endbower -->\n    <!-- endbuild -->\n    <!-- build:css(.tmp) styles/main.css -->\n    <link rel=\"stylesheet\" href=\"styles/main.css\">\n    <!-- endbuild -->\n  </head>\n  <body ng-app=\"walshApp\">\n    <!--[if lt IE 7]>\n      <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n    <![endif]-->\n\n    <!-- Add your site or application content here -->\n    <div class=\"container\">\n      <div class=\"header\">\n        <ul class=\"nav nav-pills pull-right\">\n          <li class=\"active\"><a ng-href=\"#\">Home</a></li>\n          <li><a ng-href=\"#/about\">About</a></li>\n          <li><a ng-href=\"#\">Contact</a></li>\n        </ul>\n        <h3 class=\"text-muted\">walsh</h3>\n      </div>\n\n      <div ng-view=\"\"></div>\n\n      <div class=\"footer\">\n        <p><span class=\"glyphicon glyphicon-heart\"></span> from the Yeoman team</p>\n      </div>\n    </div>\n\n\n    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->\n     <script>\n       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n       ga('create', 'UA-XXXXX-X');\n       ga('send', 'pageview');\n    </script>\n\n    <!-- build:js(.) scripts/oldieshim.js -->\n    <!--[if lt IE 9]>\n    <script src=\"bower_components/es5-shim/es5-shim.js\"></script>\n    <script src=\"bower_components/json3/lib/json3.min.js\"></script>\n    <![endif]-->\n    <!-- endbuild -->\n\n    <!-- build:js(.) scripts/vendor.js -->\n    <!-- bower:js -->\n    <script src=\"bower_components/jquery/dist/jquery.js\"></script>\n    <script src=\"bower_components/angular/angular.js\"></script>\n    <script src=\"bower_components/json3/lib/json3.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js\"></script>\n    <script src=\"bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js\"></script>\n    <script src=\"bower_components/angular-resource/angular-resource.js\"></script>\n    <script src=\"bower_components/angular-cookies/angular-cookies.js\"></script>\n    <script src=\"bower_components/angular-sanitize/angular-sanitize.js\"></script>\n    <script src=\"bower_components/angular-animate/angular-animate.js\"></script>\n    <script src=\"bower_components/angular-touch/angular-touch.js\"></script>\n    <script src=\"bower_components/angular-route/angular-route.js\"></script>\n    <!-- endbower -->\n    <!-- endbuild -->\n\n        <!-- build:js({.tmp,app}) scripts/scripts.js -->\n        <script src=\"scripts/app.js\"></script>\n        <script src=\"scripts/controllers/main.js\"></script>\n        <script src=\"scripts/controllers/about.js\"></script>\n        <!-- endbuild -->\n</body>\n</html>\n",
-			"file": "app/index.html",
-			"file_size": 4402,
-			"file_write_time": 130515816530000000,
-			"settings":
-			{
-				"buffer_size": 4405,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 585,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/controllers/main.js",
-			"settings":
-			{
-				"buffer_size": 315,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -83,9 +52,61 @@
 	},
 	"file_history":
 	[
-		"/Users/sudbutt/code/walsh/app/styles/main.scss",
+		"/Users/sudbutt/code/walsh/bower.json",
+		"/Users/sudbutt/code/walsh/app/styles/home.scss",
 		"/Users/sudbutt/code/walsh/app/index.html",
+		"/Users/sudbutt/code/walsh/app/scripts/app.js",
+		"/Users/sudbutt/code/walsh/app/scripts/controllers/home.js",
+		"/Users/sudbutt/code/walsh/app/views/home.html",
+		"/Users/sudbutt/code/prototype/.gitignore",
+		"/Users/sudbutt/code/walsh/.gitignore",
 		"/Users/sudbutt/Downloads/strapped/strapped.html",
+		"/Users/sudbutt/code/discuss/index.html",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap/js/carousel.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap/less/component-animations.less",
+		"/Users/sudbutt/code/walsh/bower_components/es5-shim/CHANGES",
+		"/Users/sudbutt/code/walsh/app/scripts/controllers/carousel.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-ui/template/carousel/slide.html",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-ui/src/carousel/carousel.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-ui/template/carousel/carousel.html",
+		"/Users/sudbutt/code/walsh/node_modules/karma/node_modules/log4js/test/setLevel-asymmetry-test.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-sass-official/sache.json",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap/dist/js/bootstrap.js",
+		"/Users/sudbutt/code/walsh/app/views/about.html",
+		"/Users/sudbutt/code/walsh/app/scripts/controllers/main.js",
+		"/Users/sudbutt/code/walsh/app/styles/main.scss",
+		"/Users/sudbutt/code/walsh/app/views/main.html",
+		"/Users/sudbutt/code/walsh/test/spec/controllers/main.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-ui/bower.json",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-ui/package.json",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/buffer-overrun.js",
+		"/Users/sudbutt/Downloads/strapped/js/jquery.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js",
+		"/Users/sudbutt/code/walsh/.bowerrc",
+		"/Users/sudbutt/code/walsh/.gitattributes",
+		"/Users/sudbutt/code/walsh/.jshintrc",
+		"/Users/sudbutt/code/walsh/.travis.yml",
+		"/Users/sudbutt/code/walsh/Gruntfile.js",
+		"/Users/sudbutt/code/githubPageTest/index.html",
+		"/Users/sudbutt/code/myStuff/.gitignore",
+		"/Users/sudbutt/code/walsh/.git/COMMIT_EDITMSG",
+		"/Users/sudbutt/code/walsh/dist/.htaccess",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-google-cdn/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss",
+		"/Users/sudbutt/code/walsh/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js",
+		"/Users/sudbutt/code/walsh/.sass-cache/889f474f1f6766b539a9e3731895ae43b9eb6831/bootstrap.scssc",
+		"/Users/sudbutt/code/walsh/app/scripts/controllers/about.js",
+		"/Users/sudbutt/code/walsh/app/scripts/controllers/HomeCtrl.js",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/region-usage-json/TL.json",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/css-transitions.json",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-ngmin/node_modules/ngmin/node_modules/astral-angular-annotate/lib/annotate-injectable.js",
+		"/Users/sudbutt/code/walsh/.tmp/styles/main.css",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-google-cdn/node_modules/bower/lib/commands/home.js",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-chrome-13.http",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-contrib-htmlmin/node_modules/.bin/html-minifier",
+		"/Users/sudbutt/code/walsh/bower_components/jquery/src/var/hasOwn.js",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-contrib-htmlmin/tasks/htmlmin.js",
+		"/Users/sudbutt/code/walsh/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/atob-btoa.json",
 		"/Users/sudbutt/code/todo/package.json",
 		"/Users/sudbutt/code/todo/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/png-alpha.json",
 		"/Users/sudbutt/code/myStuff/package.json",
@@ -113,11 +134,8 @@
 		"/Users/sudbutt/.profile",
 		"/Users/sudbutt/code/myStuff/doing.html",
 		"/Users/sudbutt/code/myStuff/.git/COMMIT_EDITMSG",
-		"/Users/sudbutt/code/myStuff/.gitignore",
-		"/Users/sudbutt/code/walsh/.gitignore",
 		"/Users/sudbutt/.gitconfig",
 		"/Users/sudbutt/code/walsh/npm-debug.log",
-		"/Users/sudbutt/code/walsh/.git/COMMIT_EDITMSG",
 		"/Users/sudbutt/code/myStuff/README",
 		"/Users/sudbutt/code/pbcopy.txt",
 		"/Users/sudbutt/code/crap.txt"
@@ -131,6 +149,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -138,6 +157,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"noisy_net",
+			"jpgz",
+			"item",
+			"carousel",
+			"carousel-indicators",
+			"data-ride",
+			"img/",
+			"look_at_how_we_do_it",
+			"img/",
+			"img",
+			"stock5",
+			"we_do_these_type_of_project",
+			"stock5",
+			"we_do_these_type_of_project",
+			"we_worked_with_this_well_known_business_2",
+			"stock3",
+			"stock2",
+			"we_worked_with_this_well_known_business",
+			"main",
+			"tour",
+			"Tour",
+			"span",
+			"coverstrap",
+			"url(*img*",
+			"img",
+			"about.js",
+			"main.js",
+			"aboutctrl",
 			">\n"
 		],
 		"highlight": true,
@@ -146,6 +193,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"carousel-indicators",
+			"img/",
+			"../images/",
+			"img/",
+			"../images/",
+			"img/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -156,125 +209,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1340,
-								1340
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/scripts/controllers/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -316,7 +252,7 @@
 	"project": "walsh.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -325,16 +261,64 @@
 		"selected_items":
 		[
 			[
-				"pack",
-				"package.json"
+				"home.js",
+				"app/scripts/controllers/home.js"
 			],
 			[
-				"main",
-				"app/scripts/controllers/main.js"
+				"carou",
+				"app/scripts/controllers/carousel.js"
+			],
+			[
+				"slide",
+				"bower_components/bootstrap-ui/template/carousel/slide.html"
+			],
+			[
+				"main.html",
+				"app/views/main.html"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"home.sc",
+				"app/styles/home.scss"
+			],
+			[
+				"index.ht",
+				"app/index.html"
+			],
+			[
+				"about.js",
+				"app/scripts/controllers/about.js"
+			],
+			[
+				"home.h",
+				"app/views/home.html"
 			],
 			[
 				"app.js",
 				"app/scripts/app.js"
+			],
+			[
+				"hom",
+				"app/scripts/controllers/HomeCtrl.js"
+			],
+			[
+				"about.h",
+				"app/views/about.html"
+			],
+			[
+				"main",
+				"app/styles/main.scss"
+			],
+			[
+				"pack",
+				"package.json"
 			],
 			[
 				"index.",
@@ -363,10 +347,6 @@
 			[
 				"index.html",
 				"app/index.html"
-			],
-			[
-				"main.html",
-				"app/views/main.html"
 			],
 			[
 				"main.htm",
